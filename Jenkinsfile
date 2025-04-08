@@ -14,11 +14,11 @@ pipeline {
              }
          }
         
-//stage ("terraform Plan") {
- //           steps {
- //               sh ("terraform plan") 
-  //          }
-   //     }
+// stage ("terraform Plan") {
+//           steps {
+//               sh ("terraform plan") 
+//          }
+//     }
 
         stage ("Action") {
             steps {
